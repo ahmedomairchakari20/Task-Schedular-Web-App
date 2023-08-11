@@ -1,0 +1,59 @@
+.analysis-container{
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+}
+.analysis-header{
+    /* background-color: rgba(74, 108, 134, 0.486); */
+    color: white;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+}
+/* .analysis-header > h1{
+    justify-content: center;
+} */
+.analysis-main{
+    min-height: 85vh;
+    display: flex;
+    color: white;
+
+}
+.side-bar{
+    width: 20vw;
+    min-height: 85vh;
+    background-color: rgba(74, 108, 134, 0.486);
+    margin: 1rem 1rem 0.5rem 0rem;
+}
+.side-bar-tags > *{
+    padding: 0.4rem;
+}
+
+.main{
+    min-height: 75vh;
+    width: 80vw;
+    background-color: rgba(74, 108, 134, 0.486);
+    margin: 1rem 1rem 0.5rem 0rem;
+}
+
+.main-tags, .main-items{
+    display: flex;
+}
+.main-tags > *, .main-items > *{
+    width: 13.33333333vw;
+    text-align: center;
+    margin: 1rem;
+    /* padding: 5rem; */
+}
+.recharts-wrapper{
+    margin: auto;
+}
+.Download_Header{
+    background-color: rgba(74, 108, 134, 0.486);
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 3rem;
+
+}

@@ -1,0 +1,70 @@
+.home-container{
+    background:  url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg') ;
+    background-size: cover;
+    /* background-position: center; Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    min-height: 100vh;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.home-heading {
+    display: flex;
+    align-items: center;
+    min-height: 12vh;
+}
+
+  
+.itemcenter {
+    flex: 0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+  
+.itemright {
+    flex: 0 1 auto;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.home-items-container{
+    background-color: rgba(71, 62, 62, 0.3);;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 50vh;
+    width: 50%;
+    margin: auto;
+    /* margin: 0rem 20rem; */
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+
+.home-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 calc(33.333333% - 1.5rem);
+    margin: 1rem 0.75rem ;
+}
+.logoutIcon{
+    padding: 10px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+h4{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}

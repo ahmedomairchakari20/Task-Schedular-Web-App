@@ -1,0 +1,87 @@
+
+.dashboard-section{
+    min-height: 15vh;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    background: url("home_1.jpg");
+    background-size: cover;
+}
+
+.db-heading-back{
+    margin-left: 1rem;
+}
+.m1{
+    padding: 1rem;
+}
+
+.dashboard-main-section{
+    min-height: 85vh;
+    background-color: lightseagreen;
+    background: url("plain_2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.task-details{
+    display: flex;
+    justify-content: space-around;
+}
+.task-details > div{
+    background-color: rgba(135, 206, 250, 0.375);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+}
+.all-tasks{
+    margin: 2rem auto;
+    width: 250px;
+    height: 250px;
+}
+
+.dashboard-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.skill, .progress-bar-svg{
+    width: 100%;
+    height: 100%;
+}  
+.my-circle > circle{
+  transform: rotate(278deg);
+  transform-origin: center;
+  stroke-width: 1.3rem;
+  fill: none;
+  transition: all 0.5s ease;
+}
+
+.my-circle > circle:nth-child(1) {
+  stroke: var(--circle-bg);
+  filter: drop-shadow(0 0 0.001rem var(--white));
+}
+  
+.progress {
+  stroke: var(--stroke);
+  position: relative;
+  z-index: 1;
+  transition: var(--transition);
+  stroke-dasharray: var(--stroke-dasharray);
+  stroke-dashoffset: var(--stroke-dasharray);
+  animation: progress var(--animation-time) ease-in forwards;
+  --webkit-stroke-position: inside;
+  stroke-linecap: round;
+}
+  
+@keyframes progress {
+  to {
+    stroke-dashoffset: var(--stroke-dashoffset);
+  }
+}
+.tasks-count{
+    color: white;
+    text-align: center;
+    transform: translate(0%, 220%);
+}

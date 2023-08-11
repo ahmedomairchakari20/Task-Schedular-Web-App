@@ -1,0 +1,75 @@
+.upper-section{
+    background-color: rgba(152, 251, 152, 0.566);
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 3.5rem;
+    background: url("plain_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-section{
+    min-height: 80vh;
+    background-color: rgba(175, 238, 238, 0.184);
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+    /* margin-bottom: 5rem; */
+}
+.user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.plus-icon-container{
+    position: absolute;
+    top: 34.5%;
+    left: 50%;
+    z-index: 10;
+    /* justify-content: center; */
+    /* background-color: blueviolet; */
+    transform: translate(-50%,-35%) rotate(90deg);
+    /* transform: rotate(-90deg); */
+}
+.plus-icon{
+    width: 30px;
+    height: 30px;
+}
+.user-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-30%);
+    background-color: rgba(176, 224, 230, 0.469);
+    width: 50%;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+.user-form > input{
+    padding: 0.4rem 2rem;
+    margin: 1rem;
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    background-color: transparent;
+    border-radius: 0.3rem;
+}
+.user-form > input:hover{
+    border: 2px solid rgba(255, 255, 255, 0.661);
+}
+.user-form > input::placeholder { 
+    color: rgba(255, 255, 255, 0.661);
+    opacity: 1;
+}
+.wrapper_profile{
+    /* min-height: 100vh; */
+    /* overflow: auto; */
+}

@@ -1,0 +1,276 @@
+.task-upper-section{
+    min-height: 15vh;
+    background-color: lightsteelblue;
+    background: url("plain_2.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.task-upper-section > a{
+    color:white;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.itemcenter{
+    justify-self: center;
+}
+h5{
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.task-main-section{
+    min-height: 85vh;
+    overflow: auto;
+    background-color: cornflowerblue;
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+}
+
+.task-detail{
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: wrap;
+}
+.task-detail > *{
+    width: 100%;
+}
+.btn-tasksearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.btn-tasksearch > button{
+    padding: 0.5rem 1.8rem;
+    color: white;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.btn-tasksearch > button:hover{
+    color: black;
+    background-color: white;  
+}
+
+.btn-tasksearch > form input{
+    padding: 0.5rem 1.8rem;
+    margin: 1rem;
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    background-color: rgba(215, 211, 211, 0.404);
+    border-radius: 0.3rem;
+}
+
+.tasks-type{
+    display: flex;
+    justify-content: space-between;
+}
+.keyboard-icon{
+    transform: translateX(-300%);
+}
+.my-active{
+    background-color: rgb(7, 62, 102);
+}
+.my-inactive{
+    background-color: rgb(74, 108, 134);
+
+}
+.tasks-type > h1{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.task-type1, .task-type3{
+    flex: 1;
+}
+.task-type2{
+    flex: 2;
+}
+
+.my-form{
+    font-size: 1.2rem;
+    color: white;
+    /* padding: 1rem; */
+}
+.modal-container{
+    background-color: rgb(123, 123, 244);
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: center; */
+
+}
+
+.my-form > div input{
+    padding: 0.5rem 1.8rem;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    background-color: transparent;
+    border-radius: 0.3rem;
+    width: 85%;
+    
+}
+input{
+    padding: 0.5rem 1.8rem;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    background-color: transparent;
+    border-radius: 0.3rem;
+    /* width: 25%; */
+}
+.my-form > div label, label{
+    display: inline-block;
+    width: 10vw;
+    text-align: right;
+}
+.my-form > div:nth-of-type(-n+4) input {
+    background-color: transparent;
+    width: 75vw;
+  }
+  
+.color{
+    width: 20vw;
+}
+
+.media{
+    width: 42.75vw;
+}
+.remind, .recurring{
+    width: 20vw;
+}
+
+.when-input{
+    width: 60vw;
+}
+
+.nlp-btn-container{
+    position: absolute;
+    z-index: 6;
+    top: 54%;
+    left: 50%;
+    width: 298px;
+    background-color: lightcyan;
+}
+.remindCalendar{
+    position: absolute;
+    z-index: 6;
+    top: 59%;
+    left: 50%;
+    width: 298px;
+}
+.nlp2-btn-container{
+    position: absolute;
+    z-index: 6;
+    top: 60%;
+    left: 50%;
+    width: 298px;
+    background-color: lightcyan;
+}
+.recurCalendar{
+    position: absolute;
+    z-index: 6;
+    top: 65%;
+    left: 50%;
+    width: 298px;
+}
+.nlp-btn-container> button, .nlp2-btn-container> button{
+    padding: .5rem 1rem;
+    width: 50%;
+    background: white;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+}
+
+.btn-row button{
+    padding: 1rem;
+    cursor: pointer;
+    color :rgb(255, 255, 255);
+}
+
+
+
+.rmdp-input {
+    padding: 1rem 0.5rem !important;
+    width: 27.5vw !important;
+}
+.cqwnYz {
+    top: 6px;
+    left: 12px;
+}
+.empty-div {
+    display: inline-block;
+    width: 15vw;
+    height: 0; /* Ensures the div has no height */
+}
+  
+.hBbmLh, .eiinqm {
+    margin: 1rem;
+    text-align: start;
+    display: inline-block !important;
+    justify-content: start;
+    align-items: center;
+    width: 5vw;
+}
+.sc-bgqQcB {
+    display: inline-block;
+
+}
+
+.update-task-container > select{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+
+}
+
+
+.delete-all-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.delete-all-container > button{
+    width: 12vw;
+    margin-right: 5rem;
+}
+
+.confirmation-modal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+    /* margin: auto 0; */
+}
+
+.btn-confirmation-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-self: ; */
+}
+.btn-confirmation-container> button{
+    width: 10vw;
+
+}
+/* .update-task{
+    margin-left: 1rem;
+    width: 20%;
+} */

@@ -1,0 +1,109 @@
+.task-row{
+    display: flex;
+    margin: 0.7rem;
+    background: rgba(95, 95, 221, 0.421);
+    /* border-radius: 1rem; */
+}
+.task-row > h1{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.task-row > div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-div{
+    max-height: 3.2vh;
+    overflow: hidden;
+
+}
+.task-date-color{
+    padding: 0.6rem 0rem;
+    width: 18vw;
+    text-align: center;
+    background-color: lightseagreen;
+    /* border-radius: 1rem; */
+}
+.task-date, .icon-row {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.task-date{
+    justify-self: center;
+}
+  
+.task-detail {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.icon-row> *{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.CircularProgressbar {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+
+
+.btn-row-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w100{
+    width: 50%;
+    margin: 0;
+}
+
+.react-sweet-progress-line-inner {
+    position: relative;
+    min-height: 30px;
+    border-radius: 100px;
+    transition: width 0.3s ease;
+}
+
+.progress-btn{
+    padding: 0rem;
+    background: transparent;
+    border: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 9999; /* Make sure the overlay appears above other content */
+}
+.react-sweet-progress-symbol{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 !important;
+}
+.imgdiv{
+    display:flex;
+    justify-content: end;
+    /* padding-left: 100px; */
+    padding-right: 40px;
+}
+.media-img{
+    width: 20%;
+    height: 20%;
+    display: flex !important;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+}

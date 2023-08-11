@@ -1,0 +1,50 @@
+.task-detail-heading{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task-detail-heading{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-details-section{
+    min-height: 65vh;
+    background-color: rgba(128, 128, 128, 0.377);
+    margin: 1.5rem 3rem;
+    color: white;
+    
+}
+
+.row{
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 26px;
+    padding: 1rem;
+
+}
+.row-first-p{
+    margin-left: 3rem;
+    margin-right: 1rem;
+    width: 10vw;
+    text-align: end;
+}
+
+.actions{
+    margin-right: 2rem;
+}
+.actions> *{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.images-container{
+    display: flex;
+}
+.images-container > *{
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+}

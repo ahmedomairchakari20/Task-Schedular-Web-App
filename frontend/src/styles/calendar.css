@@ -1,0 +1,94 @@
+.calendar-header{
+    min-height: 15vh;
+    background-color: palegreen;
+    background: url("plain_2.jpg");
+    background-size: cover;
+        display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+}
+.calendar-center{
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 60vw; */
+}
+
+.rmdp-selected > .sd{
+    color: black;
+} 
+  
+.rmdp-day, .rmdp-week-day {
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    /* font-size: 2rem; */
+    width: 40px;
+    height: 40px;
+}
+  
+.rmdp-day.rmdp-selected span:not(.highlight) {
+    background-color: transparent;
+    box-shadow: 0 0 3px #000000;
+    color: #000000;
+}
+  
+.tooltip {
+    white-space: pre-wrap;
+    width: 30vw;
+    max-height: 40vh;
+    background-color: black;
+    z-index: 2;
+    --rt-opacity: 1;
+    background-color: rgb(86, 86, 86);
+    border-radius: 1rem;
+    /* height: 40vh; */
+    overflow-y: scroll;
+    pointer-events: auto !important;
+    &:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+    }
+
+
+}
+
+
+.btn-container{
+    display: flex;
+}
+.btn-container > *{
+    width: 50%;
+}
+          
+.btn-grad {
+    background-image: linear-gradient(to right, #787470 0%, #5f6060  51%, #888c91  100%);
+    margin: 10px;
+    padding: 1rem 0rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    border: none;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(125, 254, 244);
+}

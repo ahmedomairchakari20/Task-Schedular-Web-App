@@ -1,0 +1,14 @@
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 5px !important;
+    padding-bottom: 10px !important;
+}
+.registerForm input[type="text"],
+.registerForm input[type="email"],
+.registerForm input[type="password"] {
+    margin-left :0 !important;
+    margin-bottom: 5px;
+    width: 100%;
+}

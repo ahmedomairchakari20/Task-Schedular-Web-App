@@ -1,0 +1,74 @@
+ 
+h1,p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+p.for{
+    
+    margin-bottom: 2px;
+}
+a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.wrapper{
+    background: url('https://getwallpapers.com/wallpaper/full/1/5/5/40801.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    /* position: absolute; */
+    /* top:18%; */
+    bottom: 30%;
+    flex-direction: column;
+    background-color: rgba(71, 62, 62, 0.2);
+    display: block;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px round black;
+}
+.title{
+    padding: 40px;
+    padding-bottom: 5px !important;
+}
+.field{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding: 40px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.field input[type="text"],input[type="password"]{
+    margin-left :0 !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.field2{
+    padding: 40px;
+    padding-bottom: 5px !important;
+    padding-top: 0px !important;
+}
+.field2 input{
+    margin-left :0 !important;
+    width: 100%;
+    background:navy;
+}
+.last{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 18%;
+    width: 100%;
+}
